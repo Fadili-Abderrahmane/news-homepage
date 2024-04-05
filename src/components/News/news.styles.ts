@@ -38,6 +38,11 @@ export const ArticelNumber = styled.span`
 export const ArticelTitle = styled.h3`
 	color: var(--very-dark-blue);
 	margin: 0.7rem 0;
+
+	&:hover {
+		color: var(--soft-orange);
+		cursor: pointer;
+	}
 `;
 
 export const ArticleText = styled.p`

@@ -30,7 +30,6 @@ const GlobalStyle = createGlobalStyle`
 
    body {
       background-color: var(--off-white);
-      height:5000px;
    }
 
 `;

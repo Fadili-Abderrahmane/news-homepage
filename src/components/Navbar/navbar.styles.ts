@@ -85,6 +85,10 @@ export const MenuLink = styled.a`
 	text-decoration: none;
 	font-weight: 600;
 
+	&:hover {
+		color: var(--soft-orange);
+	}
+
 	@media screen and (max-width: 640px) {
 		color: var(--very-dark-blue);
 	}

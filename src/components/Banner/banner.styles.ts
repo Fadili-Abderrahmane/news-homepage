@@ -5,10 +5,19 @@ export const BannerContainer = styled(Container)`
 	padding-top: 2rem;
 	display: flex;
 	justify-content: space-between;
+
+	@media screen and (max-width: 830px) {
+		flex-direction: column;
+	}
 `;
 
 export const BannerLeft = styled.div`
 	width: 64%;
+
+	@media screen and (max-width: 830px) {
+		width: 100%;
+		margin-bottom: 2rem;
+	}
 `;
 
 export const BannerImage = styled.img`
@@ -19,16 +28,29 @@ export const BannerContent = styled.div`
 	display: flex;
 	justify-content: space-between;
 	margin-top: 2rem;
+
+	@media screen and (max-width: 830px) {
+		flex-direction: column;
+	}
 `;
 
 export const BannerContentLeft = styled.div`
 	width: 45%;
+
+	@media screen and (max-width: 830px) {
+		width: 100%;
+	}
 `;
 
 export const BannerContentRight = styled.div`
 	width: 45%;
 	display: flex;
 	flex-direction: column;
+
+	@media screen and (max-width: 830px) {
+		width: 100%;
+		margin-top: 1rem;
+	}
 `;
 
 export const BannerTitle = styled.h1`
@@ -51,10 +73,18 @@ export const BannerButton = styled.a`
 	font-weight: 600;
 	width: 200px;
 	text-decoration: none;
+
+	&:hover {
+		background-color: var(--very-dark-blue);
+	}
 `;
 
 export const BannerRight = styled.div`
 	width: 33%;
+
+	@media screen and (max-width: 830px) {
+		width: 100%;
+	}
 `;
 
 export const BannerNew = styled.div`
@@ -80,6 +110,11 @@ export const NewItem = styled.div`
 
 export const NewItemTitle = styled.h2`
 	color: var(--off-white);
+
+	&:hover {
+		color: var(--soft-orange);
+		cursor: pointer;
+	}
 `;
 
 export const NewItemText = styled.p`
