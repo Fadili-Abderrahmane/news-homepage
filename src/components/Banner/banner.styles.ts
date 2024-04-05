@@ -56,3 +56,33 @@ export const BannerButton = styled.a`
 export const BannerRight = styled.div`
 	width: 33%;
 `;
+
+export const BannerNew = styled.div`
+	background-color: var(--very-dark-blue);
+	padding: 1rem;
+`;
+
+export const NewTitle = styled.h1`
+	color: var(--soft-orange);
+	font-weight: 600;
+	margin-bottom: 1rem;
+`;
+
+export const NewItem = styled.div`
+	padding-bottom: 2rem;
+	border-bottom: 1px solid var(--dark-grayish-blue);
+	padding-top: 1rem;
+
+	&:nth-child(4) {
+		border: none;
+	}
+`;
+
+export const NewItemTitle = styled.h2`
+	color: var(--off-white);
+`;
+
+export const NewItemText = styled.p`
+	color: var(--grayish-blue);
+	margin-top: 1rem;
+`;
