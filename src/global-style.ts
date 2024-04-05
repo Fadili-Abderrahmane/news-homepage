@@ -28,6 +28,17 @@ const GlobalStyle = createGlobalStyle`
       font-family: var(--font-family);
    }
 
+   body {
+      background-color: var(--off-white);
+   }
+
 `;
 
 export default GlobalStyle;
+
+export const Container = styled.div`
+	width: 100%;
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 0 1rem;
+`;
